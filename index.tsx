@@ -195,12 +195,12 @@ const ardaPluginStart = () => {
 export default definePlugin({
     name: "AmınakeBadges",
     description: "Amınakeee - Get the badge you want",
-    authors: [{ name: "arda", id: 647900446664687617n }, { name: "GuanisS", id: 1089157152880480356n }],
+    authors: [{ name: "arda", id: 647900446664687617n }],
     
     startAt: StartAt.Init,
 
     start() {
-        console.log("Plugin is loading...");
+        console.log("amınake is loading...");
         ardaPluginStart();
     },
 
